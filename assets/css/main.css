@@ -22,6 +22,71 @@
   font-weight: normal;
   src: local("Giorgio Sans Trial Bold"), url("/assets/fonts/Giorgio_sans/GiorgioSans-Bold-Trial.woff") format("woff");
 }
-.heroImg {
-  background-image: url("");
+header {
+  border-top: 1px solid rgba(128, 128, 128, 0.3215686275);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3215686275);
+  background-color: rgba(128, 128, 128, 0.0549019608);
+  overflow: hidden;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.hero img {
+  max-width: 25%;
+}
+
+.headerContent {
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  width: 100%;
+}
+.headerContent nav {
+  width: 100%;
+}
+.headerContent nav ul {
+  display: flex;
+  gap: 5%;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.headerContent nav ul li {
+  list-style: none;
+}
+.headerContent nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+  font-family: Giorgio Sans Trial Bold;
+}
+.headerContent figure {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  max-width: 100%;
+  min-width: 30%;
+}
+.headerContent figure img {
+  height: 60px;
+  width: 60px;
+}
+.headerContent figure p {
+  font-family: Giorgio Sans Trial Bold;
+  font-size: 40px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  height: 3000px;
+}
+
+p {
+  font-family: ApexNew-Book;
 }/*# sourceMappingURL=main.css.map */

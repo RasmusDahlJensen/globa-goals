@@ -1,0 +1,61 @@
+@use "typografi" as f;
+@use "centerContent";
+
+header{
+    border-top: 1px solid #80808052;
+    border-bottom: 1px solid #80808052;
+    background-color: #8080800e;
+    overflow: hidden;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    img{
+        max-width: 25%
+    }
+}
+
+.headerContent{
+    @include centerContent.center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+        nav{
+            width: 100%;
+            ul{
+                display: flex;
+                gap: 5%;
+                flex-wrap: wrap;
+                margin: 0;
+                li{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: xx-large;
+                        font-family: f.$titleBoldText;
+                    }
+                }
+            }
+        }
+        figure{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 2%;
+            max-width: 100%;
+            min-width: 30%;
+            img{
+                height: 60px;
+                width: 60px;
+            }
+            p{
+                font-family: f.$titleBoldText;
+                font-size: 40px;
+                margin: 0;
+            }
+        }
+}  

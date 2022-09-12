@@ -1,5 +1,12 @@
 @use "typografi" as f;
+@use "centerContent";
+@use "header";
 
-.heroImg{
-    background-image: url("");
+body{
+    margin: 0;
+    height: 3000px;
+}
+
+p{
+    font-family: f.$regText;
 }
