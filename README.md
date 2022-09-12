@@ -1,2 +1,2 @@
-# globa-goals
+# global-goals
  Skoleopgave
