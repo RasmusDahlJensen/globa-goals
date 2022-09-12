@@ -14,9 +14,12 @@
         src: local('ApexNew-Bold'), url('/assets/fonts/apex_new/ufonts.com_apexnew-bold-opentype.woff') format('woff');
         }
 
-//Giorgio
 
+    $regText: ApexNew-Book;
+    $regBoldText: ApexNew-Bold;
     
+
+//Giorgio
 
         @font-face {
         font-family: 'Giorgio Sans Trial Extralight';
@@ -33,3 +36,5 @@
         src: local('Giorgio Sans Trial Bold'), url('/assets/fonts/Giorgio_sans/GiorgioSans-Bold-Trial.woff') format('woff');
         }
     
+        $titleText: Giorgio Sans Trial Extralight;
+        $titleBoldText: Giorgio Sans Trial Bold;
