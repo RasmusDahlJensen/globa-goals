@@ -1,0 +1,29 @@
+@use "typografi" as f;
+@use "centerContent";
+
+
+.footerContent{
+    @include centerContent.center;
+}
+
+footer{
+    border-top: 1px solid #80808052;
+    border-bottom: 1px solid #80808052;
+    background-color: #8080800e;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    height: 50px;
+    li{
+        list-style: none;
+        a{
+            color: black;
+            font-family: f.$regText;
+            font-size: 20px;
+        }
+    }
+}
