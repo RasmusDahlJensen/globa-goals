@@ -38,7 +38,7 @@ header {
 }
 
 .headerContent {
-  max-width: 1250px;
+  max-width: 1400px;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -82,9 +82,66 @@ header {
   margin: 0;
 }
 
+.articleOne, .articleTwo {
+  display: flex;
+  height: 500px;
+}
+.articleOne p, .articleTwo p {
+  font-family: ApexNew-Book;
+  color: white;
+  width: 80%;
+  font-size: 20px;
+}
+.articleOne h2, .articleTwo h2 {
+  font-family: Giorgio Sans Trial Bold;
+  font-size: 50px;
+  color: white;
+}
+
+.articleContainer {
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.articleText, .articleImg {
+  width: 50%;
+}
+
+.articleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.articleText button {
+  padding: 2%;
+  background-color: transparent;
+  border: 3px white solid;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: ApexNew-Book;
+}
+
+figure {
+  margin: 0;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.articleOne {
+  background-color: #21bee6;
+}
+
+.articleTwo {
+  background-color: #fea256;
+}
+
 body {
   margin: 0;
-  height: 3000px;
 }
 
 p {

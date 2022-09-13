@@ -1,10 +1,11 @@
 @use "typografi" as f;
 @use "centerContent";
 @use "header";
+@use "article";
+@use "goals";
 
 body{
     margin: 0;
-    height: 3000px;
 }
 
 p{
