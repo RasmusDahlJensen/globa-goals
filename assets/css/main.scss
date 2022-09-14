@@ -12,3 +12,9 @@ body{
 p{
     font-family: f.$regText;
 }
+
+.imgTest{
+    aspect-ratio: auto/1;
+    height: 500px;
+    object-fit: cover;
+}

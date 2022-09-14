@@ -232,4 +232,11 @@ body {
 
 p {
   font-family: ApexNew-Book;
+}
+
+.imgTest {
+  aspect-ratio: auto/1;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
